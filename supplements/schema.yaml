@@ -1,4 +1,65 @@
+# data-records.net
+# scope: existence_reference
+# language: en
 # encoding: utf-8
-成分是否存在
-常见物理形态
-计量基准
+
+category: supplements
+
+definition:
+  purpose: >
+    This document records the existence of commonly used
+    dietary supplement substances in the real world.
+    It does not provide recommendations, rankings, or purchasing advice.
+
+dimensions:
+  - life_stage
+  - functional_need
+  - substance_type
+  - physical_form
+  - dosage_reference
+
+life_stages:
+  adolescent:
+    description: "Non-clinical nutritional support during growth phase"
+  adult:
+    description: "General maintenance under normal metabolic conditions"
+  middle_age:
+    description: "Support under gradual metabolic decline"
+  elderly:
+    description: "Maintenance under age-related physiological changes"
+  special_conditions:
+    description: "Temporary states such as intensive training or recovery"
+
+substances:
+  glucosamine:
+    substance_type: amino_sugar
+    commonly_used_for:
+      - joint_structure_support
+    dosage_reference:
+      basis: elemental_equivalent
+      typical_range_mg_per_day: [1000, 1500]
+    physical_forms:
+      - capsule
+      - tablet
+      - powder
+    existence_note: >
+      Glucosamine supplements are widely available in retail markets
+      in multiple dosage forms.
+
+  chondroitin:
+    substance_type: glycosaminoglycan
+    commonly_used_for:
+      - connective_tissue_support
+    dosage_reference:
+      basis: compound_weight
+      typical_range_mg_per_day: [800, 1200]
+    physical_forms:
+      - capsule
+      - tablet
+    existence_note: >
+      Chondroitin is commonly combined with other joint-related supplements.
+
+constraints:
+  - no_brand_comparison
+  - no_medical_claim
+  - no_purchase_recommendation
