@@ -1,0 +1,59 @@
+{
+    "schema_version": "1.0",
+    "region": "cn",
+    "category": "supplements",
+    "description": "中国地区保健品数据 Schema",
+    "last_updated": "2026-02-02",
+    "required_fields": [
+        "sample_id",
+        "product_name",
+        "manufacturer",
+        "country_or_region",
+        "form",
+        "serving_size",
+        "ingredients_active",
+        "observed_at",
+        "source_refs"
+    ],
+    "optional_fields": [
+        "ingredients_other",
+        "label_claims",
+        "label_directions",
+        "lot_number",
+        "mfg_date",
+        "exp_date"
+    ],
+    "field_types": {
+        "sample_id": "string",
+        "product_name": "string",
+        "manufacturer": "string",
+        "country_or_region": "string",
+        "form": "enum[capsule,tablet,powder,liquid,softgel,gummy]",
+        "serving_size": "string",
+        "ingredients_active": "array[string]",
+        "ingredients_other": "array[string]",
+        "label_claims": "string",
+        "label_directions": "string",
+        "lot_number": "string",
+        "mfg_date": "date",
+        "exp_date": "date",
+        "observed_at": "datetime",
+        "source_refs": "string"
+    },
+    "prohibited_fields": [
+        "buy_link",
+        "shop_url",
+        "rating",
+        "review",
+        "verified",
+        "audit",
+        "trust_score",
+        "recommendation",
+        "user_profile"
+    ],
+    "notes": [
+        "只录入存在性事实，不包含推荐、评分、购买链接等商业元素",
+        "label_claims 和 label_directions 为包装原文，不评价真假",
+        "所有数据必须可被视觉验证（通过样品图片）"
+    ]
+}

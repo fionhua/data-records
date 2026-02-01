@@ -1,0 +1,51 @@
+# data-records.net - Git Ignore
+# 只同步产品数据和图片到 GitHub，排除内部工具和文档
+
+# 本地工具（永不公开部署）
+_local_only/
+
+# 录入工具（可公开但不在首页曝光）
+# tools/ 目录会同步，但 index.html 不列出
+
+# 内部文档（不同步到 GitHub）
+AI星舰战队对齐说明*.md
+样品图片合规清单.md
+*使用说明.md
+*裁决*.md
+*商业模型*.md
+*架构说明*.md
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+
+# Node modules (如果未来需要)
+node_modules/
+package-lock.json
+
+# Python (如果未来需要)
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# 只保留以下内容同步到 GitHub:
+# - README.md
+# - index.html (只列 facts 路径)
+# - supplements/ (产品数据和图片)
+# - tools/ (录入工具，但不在首页曝光)
+# - 其他未来的类目目录
+
