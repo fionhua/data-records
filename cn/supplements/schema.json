@@ -1,0 +1,96 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Supplements (CN) Schema",
+    "description": "法证级保健品数据结构 (v1.5)",
+    "type": "object",
+    "required": [
+        "sample_id",
+        "product_name",
+        "brand",
+        "observed_at",
+        "images"
+    ],
+    "properties": {
+        "sample_id": {
+            "type": "string",
+            "description": "唯一样本ID (例如: SUP-CN-XXX-XXX)",
+            "pattern": "^SUP-CN-[A-Z0-9-]{6,}$"
+        },
+        "product_name": {
+            "type": "string",
+            "description": "通用名称 (Label Text)"
+        },
+        "brand": {
+            "type": "string",
+            "description": "品牌/商标"
+        },
+        "spec": {
+            "type": "string",
+            "description": "规格 (e.g. 0.5g*12片)"
+        },
+        "approval_number": {
+            "type": "string",
+            "description": "批准文号"
+        },
+        "manufacturer": {
+            "type": "string",
+            "description": "生产企业"
+        },
+        "ingredients": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "配料表/主要成分"
+        },
+        "usage": {
+            "type": "object",
+            "properties": {
+                "method": {
+                    "type": "string"
+                },
+                "dosage": {
+                    "type": "string"
+                },
+                "frequency": {
+                    "type": "string"
+                }
+            }
+        },
+        "function_category": {
+            "type": "string",
+            "enum": [
+                "joint-care",
+                "bone-density",
+                "immune-support",
+                "cardiovascular",
+                "other"
+            ],
+            "description": "功能分类 (L3 Directory)"
+        },
+        "observed_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "观察/录入时间"
+        },
+        "images": {
+            "type": "object",
+            "properties": {
+                "front": {
+                    "type": "string",
+                    "description": "正面图路径"
+                },
+                "back": {
+                    "type": "string",
+                    "description": "背面图路径"
+                },
+                "details": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
