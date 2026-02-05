@@ -27,7 +27,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: fionhua/data-records-code
-          repository: fionhua/data-records-code
           path: code-repo
           token: ${{ secrets.CODE_REPO_TOKEN }} # Access private repo
 
