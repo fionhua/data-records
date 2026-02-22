@@ -1,0 +1,16 @@
+schema_version: 1.1.0
+fingerprint_algorithm_version: v1.0-attributes-only
+first_seen_at: '2026-02-23T02:01:55Z'
+last_seen_at: '2026-02-23T02:01:55Z'
+last_checked_at: null
+sample_count: 1
+check_count: 1
+subject: {}
+specs:
+  weight: 500g
+system_metadata:
+  public_id: r663597
+  content_sha256: 4e19c2ab940fdaf1b901c4dc935c8ddb8ab8fbf1f029cfb20acd75ed7c3950fe
+  data_commit_sha: e98dc9323f49016c86bd3304e37ca69c359daff2
+  generator_commit_sha: 652c3671b642cdb73df6ae3373bb6e60055257ee
+  exported_at: '2026-02-22T18:48:31Z'

@@ -1,0 +1,87 @@
+schema_version: 1.1.0
+fingerprint_algorithm_version: v1.0-attributes-only
+first_seen_at: null
+last_seen_at: null
+last_checked_at: '2026-02-20T23:07:24.346091'
+sample_count: 0
+check_count: 1
+subject:
+  brand: 淼米 (Ref 5)
+  model_number: WS-055 (Ref 4)
+  origin: 其他 (Ref 2)
+core_specs:
+  weight: 2000g (Ref 3)
+  impact_force: 12KG (Ref 9)
+  noise_level: 36-45db (Ref 2)
+  battery: 充电式锂电池 (Ref 4)
+  motor_type: 无刷电机 (Ref 2)
+  dimensions: 240*180*65mm (Ref 4)
+speed_profile:
+- level: 12档调节
+  rpm: 1200-3200 (Ref 12)
+  recommended_areas:
+  - 筋膜放松 (Ref 13)
+  - 肌肉唤醒 (Ref 13)
+  - 分解乳酸 (Ref 13)
+  - 深层按摩 (Ref 13)
+additional_parameters:
+  产品净重: 0.9kg (Ref 8)
+  产品尺寸: 240*180*65mm (Ref 8)
+  产品毛重: 1.4kg (Ref 8)
+  供电方式: 充电式锂电池 (Ref 8)
+  充电式锂电池: 物理振幅 (Ref 8)
+  充电续航: 3小时 (Ref 8)
+  冷热功能: 带冷热功能，不带冷热头 (Ref 2)
+  十台装尺寸: 445*310*440mm (Ref 4)
+  单个装尺寸: 小箱28*24*11.5 (Ref 4)
+  噪音: 低于55dB (Ref 4)
+  外壳工艺: 8-12(合) (Ref 8)
+  开关方式: 触摸屏 (Ref 8)
+  按摩头数: 7个按摩头 (Ref 4)
+  接口类型: USB (Ref 4)
+  档位: 12档调节 (Ref 8)
+  物理振幅: 14mm (Ref 8)
+  电机转速: 1200-3200 (Ref 8)
+  电池容量: 1500mAh (Ref 8)
+  电池拆卸: 不可拆卸 (Ref 8)
+  电池类型: 有刷 (Ref 4)
+  续航时长: 3小时 (Ref 8)
+  输入电压: 100-240V 50/60Hz (Ref 4)
+  颜色: 黑色,铅色，可定制 (Ref 8)
+  额定功率: 20-30W (Ref 4)
+marketing_highlights:
+- 强劲电机 (Ref 5)
+- 持久续航 (Ref 5)
+- AI智能芯片 (Ref 5)
+- 冷敷/热敷 (Ref 5)
+- 12档可调 (Ref 5)
+- 触控显示屏 (Ref 5)
+- 14mm按摩深度 (Ref 10)
+- 1500mAh动力型电池 (Ref 11)
+- 12档按摩频率调节 (Ref 12)
+usage_notes:
+- 先冷敷5秒制冷，1档16℃制冷，2档18℃制冷，3档20℃制冷，减缓组织胺的释放，缓解炎症发作 (Ref 6)
+- 后热敷5秒制热，1档38℃微热，2档40℃温热，3档42℃温热，增强血液循环，促进肌肉纤维修复 (Ref 7)
+product_image_hash: 95b8d3ae888b1619d2cdd0f92ed0c90fe17b6f95f3d456108d742d9b9bd295ff
+price_range: 110-180
+model_used: qwen3:14b
+assets:
+- hash_sha256: 95b8d3ae888b1619d2cdd0f92ed0c90fe17b6f95f3d456108d742d9b9bd295ff
+  role: main_image
+  uri: https://assets.data-records.net/95b8d3ae888b1619d2cdd0f92ed0c90fe17b6f95f3d456108d742d9b9bd295ff.webp
+- hash_sha256: dad1e3f8ccbf6f9d6d50c9b160da9a2b5d3c3c4a0d34fd3ca78fc41f0807aadf
+  role: evidence_concat
+  uri: https://assets.data-records.net/dad1e3f8ccbf6f9d6d50c9b160da9a2b5d3c3c4a0d34fd3ca78fc41f0807aadf.webp
+disclaimer:
+  text: 本数据为商品页面的中立采样快照，完整保留原始表述（含可能的矛盾、夸张或营销话术）。data-records.net 仅提供可追溯的原始证据与结构化问题标记，不参与真实性判断。最终决策应由消费本数据的AI系统基于置信度阈值与多源验证自主完成。
+  type: neutral_sampling_notice
+data_role: page_snapshot
+product_key: '1688_760480723688'
+fingerprint_hash: 964b89548d64528c10b7b5f06ad0521d3a8ee390566cd94103ff13fbebebc462
+is_active: true
+system_metadata:
+  public_id: lens_1771600836702
+  content_sha256: 8261c7b3335220760d82429ad7699f0e745bf8525035e968aec40a6385da4587
+  data_commit_sha: e98dc9323f49016c86bd3304e37ca69c359daff2
+  generator_commit_sha: 652c3671b642cdb73df6ae3373bb6e60055257ee
+  exported_at: '2026-02-22T18:48:31Z'

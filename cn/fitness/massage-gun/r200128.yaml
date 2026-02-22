@@ -1,0 +1,53 @@
+schema_version: 1.1.0
+fingerprint_algorithm_version: v1.0-attributes-only
+first_seen_at: '2026-02-22T17:51:16Z'
+last_seen_at: '2026-02-22T22:04:18Z'
+last_checked_at: '2026-02-22T21:03:19Z'
+sample_count: 3
+check_count: 1
+subject:
+  brand: karuid (Ref 2)
+  model_number: PM12 (Ref 2)
+  origin: 深圳市卡瑞达电子科技有限公司 (Ref 2)
+specs:
+  battery: 1200mAh-2000mAh (Ref 2), 1500mAh (Ref 13), 7.4V1500mAh (Ref 15)
+  dimensions: 13.5*17.5cm (Ref 15)
+  impact_force: 13kg (Ref 5), 13kg (Ref 11)
+  motor_type: 无刷电机 (Ref 2), 直流无刷有感电机 (Ref 15)
+  noise_level: 36-45db (Ref 2), ≤49db (Ref 11)
+  weight: 500g (Ref 3), ~378g (Ref 15)
+  charging_type: TYPE-C (Ref 14)
+  stroke_amplitude: 6MM (Ref 15)
+  voltage: 7.4V (Ref 15)
+  speed_profile:
+  - level: 1档
+    recommended_areas:
+    - 脖
+    - 颈
+    rpm: 1800rpm (Ref 8)
+  - level: 2档
+    recommended_areas:
+    - 手臂
+    - 腰下侧
+    rpm: 2400rpm (Ref 9)
+  - level: 3档
+    recommended_areas:
+    - 腿部
+    - 臀部
+    rpm: 3000rpm (Ref 10)
+marketing:
+- Mini便携 (Ref 2)
+- 多档位调节 (Ref 2)
+- 低噪静音 (Ref 2)
+- 3款专业按摩头 (Ref 12)
+- TYPE-C充电 (Ref 14)
+usage_notes:
+- 建议在脖、颈等敏感部位使用 (Ref 8)
+- 建议在手臂、腰下侧等部位使用 (Ref 9)
+- 建议在腿部、臀部等部位使用 (Ref 10)
+system_metadata:
+  public_id: r200128
+  content_sha256: 905db46ccfdff25159b0b9d0aef26a594862c657960f4ed449fc83e407104aac
+  data_commit_sha: e98dc9323f49016c86bd3304e37ca69c359daff2
+  generator_commit_sha: 652c3671b642cdb73df6ae3373bb6e60055257ee
+  exported_at: '2026-02-22T18:48:31Z'

@@ -1,0 +1,81 @@
+schema_version: 1.1.0
+fingerprint_algorithm_version: v1.0-attributes-only
+first_seen_at: '2026-02-22T22:30:25Z'
+last_seen_at: '2026-02-22T22:52:06Z'
+last_checked_at: '2026-02-22T22:29:55Z'
+sample_count: 3
+check_count: 1
+marketing:
+- 8款专业按摩头 (Ref 3)
+- 10小时持久续航 (Ref 3)
+- 第五代快充技术 (Ref 3)
+- 9800转强劲动力 (Ref 3)
+- 65mm静音电机 (Ref 3)
+- AI芯片智控 (Ref 3)
+- 第11代静音降蝶 (Ref 3)
+- 防滑防汗握把 (Ref 3)
+- 20KG承压 (Ref 8)
+- 3重降噪 (Ref 8)
+- 智能芯片 (Ref 8)
+- 定制大功率无刷电机 (Ref 8)
+- 18mm有效按摩深度 (Ref 9)
+- 10小时长续航 (Ref 9)
+- Dtcys3.0动力系统 (Ref 10)
+- 3重真降噪技术 (Ref 11)
+- 悬浮式电机悬挂 (Ref 11)
+- 120W大功率无刷电机 (Ref 11)
+- 2500mAh大容量电池 (Ref 19)
+- 持久续航 (Ref 19)
+specs:
+  battery: 1200mAh-2000mAh (Ref 4), 2500mAh (Ref 6), 1800mAh/2000mAh (Ref 7)
+  dimensions: 240x230x58mm (Ref 6)
+  impact_force: 20KG承压 (Ref 17)
+  motor_type: 无刷电机 (Ref 4)
+  noise_level: 36-45db (Ref 4)
+  speed_profile:
+  - level: '1'
+    speed: 2560转/min (Ref 14)
+  - level: '2'
+    speed: 5120转/min (Ref 14)
+  - level: '3'
+    speed: 7680转/min (Ref 14)
+  - level: '4'
+    speed: 10240转/min (Ref 14)
+  - level: '5'
+    speed: 12800转/min (Ref 14)
+  weight: 1000g (Ref 5)
+  产品净重: 0.67KG (Ref 6)
+  使用环境: 0-40℃ (Ref 6)
+  充电技术: 第五代快充技术 (Ref 3)
+  充电时间: 约3小时 (Ref 6)
+  内置蓄电池容量: 1200mAh-2000mAh (Ref 4)
+  冲击控制技术: 失量冲击控制技术 (Ref 16)
+  动力系统: Dtcys3.0 (Ref 10)
+  按摩头个数: 8个 (Ref 6)
+  按摩深度: 18mm (Ref 9)
+  按键测试: 超过10万次按键测试 (Ref 13)
+  接口类型: Type-C, 5V 2A (Ref 6)
+  是否内置电池: 内置电池 (Ref 4)
+  智能模式: 全新智能按压模式 (Ref 8)
+  生产企业: 咨询客服 (Ref 4)
+  电机功率: 120W (Ref 11)
+  电机技术: 悬浮式电机悬挂 (Ref 11)
+  电池容量: 2500mAh (Ref 6), 1800mAh/2000mAh (Ref 7)
+  电池类型: 锂电池 (Ref 9)
+  续航时长: 8-12小时 (Ref 4)
+  锂电池特性: 大容量锂电池 (Ref 12)
+  颜色: 灰色-5档-8头-彩盒装, 黄色-5档-8头-彩盒装, 灰色-5档-8头-收纳包装, 黄色-5档-8头-收纳包装 (Ref 2)
+  额定电压: 12V (Ref 6)
+  额定转速: 4800转/min (Ref 6)
+subject:
+  brand: 康佳 (Ref 1)
+  model_number: V6 (Ref 1)
+  origin: null
+usage_notes:
+- 使用环境：0-40℃ (Ref 6)
+system_metadata:
+  public_id: r616073
+  content_sha256: 55a69c604786add86ba44296589c4df4b953bb85a61b08a8772eb2733d6168ab
+  data_commit_sha: e98dc9323f49016c86bd3304e37ca69c359daff2
+  generator_commit_sha: 652c3671b642cdb73df6ae3373bb6e60055257ee
+  exported_at: '2026-02-22T18:48:31Z'

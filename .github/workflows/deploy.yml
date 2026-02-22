@@ -28,6 +28,7 @@ jobs:
         with:
           repository: fionhua/data-records-code
           path: code-repo
+          ref: 63554a938c21345f1b1b11e9a2656da6c7c2b3dc
           token: ${{ secrets.CODE_REPO_TOKEN }} # Access private repo
 
       - name: Setup Node
@@ -45,6 +46,11 @@ jobs:
           # Copy Data from Data Repo to Generator's input directory
           # We purposefully overwrite any mock data in the generator
           cp -r data-repo/data/* code-repo/site_generator/data/
+          
+          # We also want to expose the raw YAML directly to AI indexers 
+          # by copying them unmodified to the static hosting root (public directory)
+          mkdir -p code-repo/site_generator/public/yaml_exports
+          cp -r data-repo/data/* code-repo/site_generator/public/yaml_exports/
           
           cd code-repo/site_generator
           node build.js

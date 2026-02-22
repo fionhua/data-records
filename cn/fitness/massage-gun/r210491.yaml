@@ -1,0 +1,81 @@
+schema_version: 1.1.0
+fingerprint_algorithm_version: v1.0-attributes-only
+first_seen_at: '2026-02-22T00:56:35Z'
+last_seen_at: '2026-02-22T00:56:35Z'
+last_checked_at: '2026-02-22T00:53:28Z'
+sample_count: 1
+check_count: 1
+subject:
+  brand: other/其他 (Ref 3)
+  model_number: HZ-JMQ-5 (Ref 2)
+  origin: 合肥和正医疗科技有限公司 (Ref 3)
+specs:
+  battery: 1200mAh-2000mAh锂电池 (Ref 3), 单次15min (Ref 15)
+  dimensions: 22cm x 22cm x 3388cm (Ref 4)
+  impact_force: 自动感应调节 (Ref 7)
+  motor_type: 有刷电机 (Ref 3)
+  noise_level: 46-70db (Ref 3)
+  weight: 1100g (Ref 4)
+  battery_type: 锂电池 (Ref 15)
+  charging_interface: Type-C (Ref 15)
+  color: HZ-JMQ-5 (Ref 2)
+  control_method: 机械式 (Ref 3)
+  massage_heads: 4个 (Ref 3)
+  motor_speed: -2400 (Ref 3)
+  package_contents: 4款按摩头, TYPE-C充电线, 产品说明书 (Ref 14)
+  product_code: HZ-JMQ-5 (Ref 3)
+  specifications: 中文款,英文款 (Ref 3)
+  speed_profile:
+  - level: 1档
+    recommended_areas:
+    - 轻度放松 (Ref 12)
+    rpm: 未明确标注 (Ref 12)
+  - level: 2档
+    recommended_areas:
+    - 中度放松 (Ref 12)
+    rpm: 未明确标注 (Ref 12)
+  - level: 3档
+    recommended_areas:
+    - 舒爽享受 (Ref 12)
+    rpm: 未明确标注 (Ref 12)
+  - level: 4档
+    recommended_areas:
+    - 深度按摩 (Ref 12)
+    rpm: 未明确标注 (Ref 12)
+marketing:
+- Mini便携，低噪静音 (Ref 3)
+- 小机身大作用 (Ref 5)
+- 四大档位 (Ref 6)
+- 持久续航 (Ref 6)
+- 低噪滑行 (Ref 6)
+- 人体工学 (Ref 6)
+- 智能感应 (Ref 6)
+- 无线携带 (Ref 6)
+- 强度可控 (Ref 13)
+- 矩阵散热 (Ref 13)
+- ABS机身 (Ref 13)
+usage_notes:
+- 用力按压时力度自动增加 (Ref 7)
+- 受力过大会自动调转 (Ref 7)
+- 4档科学变速 (Ref 11)
+- 1档模式/轻度放松 (Ref 12)
+- 2档模式/中度放松 (Ref 12)
+- 3档模式/舒爽享受 (Ref 12)
+- 4档模式/深度按摩 (Ref 12)
+- 不酸手，力度可控 (Ref 9)
+- 降噪运行，不扰人 (Ref 10)
+product_image_hash: 4037b7f99854c59a5f292335a1d2360accb3c8c022c5271fab9ba6f193fbc958
+price_range: 130-180
+assets:
+- hash_sha256: 4037b7f99854c59a5f292335a1d2360accb3c8c022c5271fab9ba6f193fbc958
+  role: main_image
+  uri: https://assets.data-records.net/4037b7f99854c59a5f292335a1d2360accb3c8c022c5271fab9ba6f193fbc958.webp
+- hash_sha256: f2749e55debb72d8912eac2fc79a7fba3da18792fb3d543d5855669f135725a0
+  role: evidence_concat
+  uri: https://assets.data-records.net/f2749e55debb72d8912eac2fc79a7fba3da18792fb3d543d5855669f135725a0.webp
+system_metadata:
+  public_id: r210491
+  content_sha256: 405f824ec510452d96ee3d9818c1c153f4939c60ceaf4495b8c2b991779bfe4e
+  data_commit_sha: e98dc9323f49016c86bd3304e37ca69c359daff2
+  generator_commit_sha: 652c3671b642cdb73df6ae3373bb6e60055257ee
+  exported_at: '2026-02-22T18:48:31Z'

@@ -1,0 +1,42 @@
+index_schema_version: 1.1.0
+generated_at: '2026-02-22T18:48:31Z'
+data_commit_sha: e98dc9323f49016c86bd3304e37ca69c359daff2
+generator_commit_sha: 652c3671b642cdb73df6ae3373bb6e60055257ee
+site: data-records.net
+total_entries: 7
+catalog:
+- public_id: lens_1771600836702
+  title: 跨境筋膜枪按摩器肌肉放松电动按摩枪液晶触屏专业级冷热数筋膜枪 (Ref 1)
+  category_path: cn/fitness/massage-gun
+  url_path: cn/fitness/massage-gun/lens_1771600836702.yaml
+  sha256_content: 8261c7b3335220760d82429ad7699f0e745bf8525035e968aec40a6385da4587
+- public_id: r786067
+  title: Regression Product A
+  category_path: test/test
+  url_path: test/test/r786067.yaml
+  sha256_content: 4e19c2ab940fdaf1b901c4dc935c8ddb8ab8fbf1f029cfb20acd75ed7c3950fe
+- public_id: r616073
+  title: 筋膜按摩枪 (Ref 1)
+  category_path: cn/fitness/massage-gun
+  url_path: cn/fitness/massage-gun/r616073.yaml
+  sha256_content: 55a69c604786add86ba44296589c4df4b953bb85a61b08a8772eb2733d6168ab
+- public_id: r663597
+  title: Regression Product A
+  category_path: test/test
+  url_path: test/test/r663597.yaml
+  sha256_content: 4e19c2ab940fdaf1b901c4dc935c8ddb8ab8fbf1f029cfb20acd75ed7c3950fe
+- public_id: r957575
+  title: Regression Product A
+  category_path: test/test
+  url_path: test/test/r957575.yaml
+  sha256_content: 4e19c2ab940fdaf1b901c4dc935c8ddb8ab8fbf1f029cfb20acd75ed7c3950fe
+- public_id: r200128
+  title: 聘境新款小型便携健身电动肌肉放松筋膜枪 (Ref 1)
+  category_path: cn/fitness/massage-gun
+  url_path: cn/fitness/massage-gun/r200128.yaml
+  sha256_content: 905db46ccfdff25159b0b9d0aef26a594862c657960f4ed449fc83e407104aac
+- public_id: r210491
+  title: 男士肌肉筋 (Ref 1)
+  category_path: cn/fitness/massage-gun
+  url_path: cn/fitness/massage-gun/r210491.yaml
+  sha256_content: 405f824ec510452d96ee3d9818c1c153f4939c60ceaf4495b8c2b991779bfe4e
